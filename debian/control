@@ -1,0 +1,29 @@
+Source: node-normalize-range
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Homepage: https://github.com/jamestalmage/normalize-range#readme
+Vcs-Git: https://salsa.debian.org/js-team/node-normalize-range.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-normalize-range
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-normalize-range
+Architecture: all
+Depends:
+ ${misc:Depends}
+Multi-Arch: foreign
+Description: Utility for normalizing a numeric range
+ This module can be used to normalize a value by bringing it within a given
+ range of values.
+ .
+ This module also comes with a wrapping function useful for polar coordinates.
+ For example, in a polar coordinate system, 270˚ can also be represented as
+ -90˚.
+ .
+ Node.js is an event-based server-side JavaScript engine.

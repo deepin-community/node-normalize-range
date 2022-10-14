@@ -1,0 +1,44 @@
+node-normalize-range (0.1.2-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Fix autopkgtest (Closes: #974404)
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 12:19:30 +0100
+
+node-normalize-range (0.1.2-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-normalize-range: Add Multi-Arch: foreign.
+
+  [ Pirate Praveen ]
+  * Use dh-sequence-nodejs auto install
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 28 Dec 2020 13:40:47 +0530
+
+node-normalize-range (0.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #879523)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 22 Oct 2017 21:19:59 +0530
